@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>2048 Game</h1>
+        <div class="grid-container" id="grid"></div>
+        <button onclick="startGame()">New Game</button>
+        <div class="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div class="record-form">
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" placeholder="Enter your nickname">
+            <button onclick="submitRecord()">Submit Record</button>
+        </div>
+        <div class="records-container">
+            <h2>Records</h2>
+            <ul id="records-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="records.js"></script>
+</body>
+</html>
