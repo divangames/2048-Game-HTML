@@ -18,7 +18,7 @@
 #### 1. Клонирование репозитория:
 ``` js
 sh
- git clone https://github.com/YOUR_USERNAME/2048-game.git
+ git clone https://github.com/divangames/2048-game.git
 cd 2048-game
  ```
 #### 2. Установка зависимостей:
